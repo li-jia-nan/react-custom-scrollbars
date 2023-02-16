@@ -1,6 +1,6 @@
 import css from 'dom-css';
 
-let scrollbarWidth: boolean | number = false;
+let scrollbarWidth: false | number = false;
 
 const getScrollbarWidth = () => {
   if (scrollbarWidth !== false) {
